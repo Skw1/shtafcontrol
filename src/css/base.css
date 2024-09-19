@@ -1,0 +1,30 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--primary-white-color);
+}
+.container{
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width:320px;
+  max-width: 375px;
+}
+
+@media screen and (min-width:768px){
+  .container{
+      padding: 0 32px;
+      max-width: 768px; 
+  }
+}
+@media screen and (min-width:1280px){
+  .container{
+      padding: 0 100px;
+      max-width: 1280px; 
+  }
+}

@@ -1,0 +1,134 @@
+.hero-section{
+    display: flex; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero-container{
+
+}
+.hero-title{
+    color: #5D5FEF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+    
+}
+.hero-list{
+    display:flex;
+    flex-direction: column;
+    row-gap: 31px;
+}
+.hero-item{ 
+   
+}
+.fizlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap:31px;
+    padding: 29px;
+    border-radius: 12px;
+    border: 2px solid #5D5FEF;
+    background: #FFF;
+}
+
+.hero-cart-title{
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.hero-cart-text{
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    max-width:272px;
+}
+.hero-span{
+    color: var(--primary-blue-color);
+}
+.hero-search-btn{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 9px 65px;
+    border:none;
+    border-radius: 12px;
+    width: 205px;
+    height: 44px;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    background-color: var(--primary-blue-color);
+}
+.yurlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap:31px;
+    padding: 29px;
+    border-radius: 12px;
+    border: 2px solid #5D5FEF;
+    background: #FFF;
+}
+.hero-cart-title-yur{
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero-cart-text-yur-list{
+    margin-left: 15px; /* страшно, не должно быть так (костыль) */
+    list-style: outside;
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.text-yur-list-item{
+
+}
+
+.sub-text-yur{
+    color: rgba(0, 0, 0, 0.68);
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.yur-span{
+
+}
+.yur-cont-text{
+
+}
+.sub-text-yur2{
+    color: rgba(0, 0, 0, 0.58);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.hero-search-btn-yur{
+    width: 205px;
+    height: 44px;
+    background-color: var(--primary-blue-color);
+    border: none;
+    border-radius: 12px;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
