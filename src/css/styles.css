@@ -23,7 +23,7 @@
 .modal {
   display: none; 
   position: fixed; 
-  z-index: 1; 
+  z-index: 5; 
   left: 0;
   top: 0;
   width: 100%;
@@ -32,37 +32,48 @@
   background-color: rgba(0, 0, 0, 0.5); /* Темный фон */
 }
 
-/* Контейнер для контента модального окна */
+/* Стиль для содержания модального окна */
 .modal-content {
-  background-color: #fff;
-  margin: 15% auto; 
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 600px;
-  border-radius: 8px;
-  text-align: center;
+  position: relative;
+  background-color: white;
+  margin: 50% auto;
+  border-radius: 10px;
+  width: 335px;
+  height: 199px;
 }
 
-/* Кнопка закрытия (крестик) */
+/* Стиль для кнопки закрытия (x) */
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+  position: absolute;
+  top:12px;
+  right: 12px;
+  fill: var(--primary-blue-color);
+  width: 24px;
+  height: 24px;
 }
-
-.close:hover, .close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+.modal-text-container{
+  margin: 0;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
 }
-/* Кнопка закрытия модального окна */
-.close-modal-btn {
-  padding: 10px 20px;
-  background-color: #dc3545;
-  color: white;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
+.modal-title{
+  color: #5D5FEF;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+}
+.modal-text{
+  width: 246px;
+  color: var(--primary-blue-color);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+.modal-error-icon{
+  fill: #FF0000;
+  width: 36px;
+  height: 36px;
 }
