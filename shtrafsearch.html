@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/shtafcontrol/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ШТРАФ-КОНРОЛЬ</title>
+    <script type="module" crossorigin src="/shtafcontrol/assets/vendor-VgS1eDdW.js"></script>
+    <script type="module" crossorigin src="/shtafcontrol/assets/preloader-ur5EiIXl.js"></script>
+    <link rel="stylesheet" crossorigin href="/shtafcontrol/assets/preloader-BrcV-1B6.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="header-navbar">
+      <a class="logo" href="./index.html">
+        <img src="../img/logo.svg" width="16" height="16" />
+        ШТРАФ-КОНРОЛЬ
+      </a>
+      <ul class="header-list">
+        <li class="header-item"><a href="">Чем поможем</a></li>
+        <li class="header-item"><a href="">Отзывы</a></li>
+        <li class="header-item"><a href="">Прайс</a></li>
+        <li class="header-item"><a href="">Контакты</a></li>
+      </ul>
+      <a class="account-login" id="openModalBtn1">
+        <svg class="icon-account">
+          <use href="../img/icons.svg#icon-account"></use>
+        </svg>
+      </a>
+
+      <button
+        class="burger-menu-btn js-open-menu"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="header-burger-icon" width="32" height="22">
+          <use href="../img/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+<div class="overlay js-overlay"></div>
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu">
+    <svg class="mobile-close" width="16" height="16">
+      <use href="/shtafcontrol/assets/icons-CcL0nmDD.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <ul class="mobile-menu">
+    <li class="mobile-item">
+      <a href="" class="link curren">Проверка и оплата штрафов</a>
+    </li>
+    <li class="mobile-item">
+      <a href="" class="link">Почему это удобно?</a>
+    </li>
+    <li class="mobile-item">
+      <a href="" class="link">В чем мы можем вам помочь</a>
+    </li>
+    <li class="mobile-item"><a href="" class="link">Отзывы</a></li>
+    <li class="mobile-item"><a href="" class="link">Контакты</a></li>
+  </ul>
+</div>
+
+    <main>
+      
+    </main>
+    <div class="loader" id="preloader">
+    <!--<svg class="spinner">
+        <use href="../img/icons.svg#preloader"></use>
+    </svg>
+-->
+    <div class="spin"></div>
+</div>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+      <svg class="close" width="24" height="24">
+        <use href="/shtafcontrol/assets/icons-CcL0nmDD.svg#icon-close"></use>
+      </svg>
+      <div class="modal-text-container">
+        <svg class="modal-error-icon" width="36" height="36">
+          <use href="/shtafcontrol/assets/icons-CcL0nmDD.svg#icon-error"></use>
+        </svg>
+        <h2 class="modal-title">Erorr</h2>
+        <p class="modal-text">На данный момент функция недоступна</p>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
