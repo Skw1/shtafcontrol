@@ -5,14 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/shtafcontrol/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ШТРАФ-КОНРОЛЬ</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-      rel="stylesheet"
-    />
     <script type="module" crossorigin src="/shtafcontrol/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/shtafcontrol/assets/index-CYkSBU3R.css">
+    <link rel="stylesheet" crossorigin href="/shtafcontrol/assets/index-CpOuMebp.css">
   </head>
   <body>
     <header class="header">
@@ -28,7 +22,7 @@
         <li class="header-item"><a href="">Прайс</a></li>
         <li class="header-item"><a href="">Контакты</a></li>
       </ul>
-      <a class="account-login">
+      <a class="account-login" id="openModalBtn1">
         <svg class="icon-account">
           <use href="../img/icons.svg#icon-account"></use>
         </svg>
@@ -85,7 +79,7 @@
           </p>
           <p class="sub-text-yur2">(для юридических лиц)</p>
         </div>
-        <button class="hero-search-btn-yur">попробовать бесплатно</button>
+        <button class="hero-search-btn-yur" id="openModalBtn2">попробовать бесплатно</button>
       </li>
     </ul>
   </div>
@@ -150,5 +144,19 @@
 </section>
 
     </main>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <svg class="close" width="24" height="24">
+          <use href="/shtafcontrol/assets/icons-D6RjV42w.svg#icon-close"></use>
+        </svg>
+        <div class="modal-text-container">
+          <svg class="modal-error-icon" width="36" height="36">
+            <use href="/shtafcontrol/assets/icons-D6RjV42w.svg#icon-error"></use>
+          </svg>
+          <h2 class="modal-title">Erorr</h2>
+          <p class="modal-text">На данный момент функция недоступна</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
